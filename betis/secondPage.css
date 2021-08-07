@@ -1,0 +1,190 @@
+section .page2details{
+    background-color: antiquewhite;
+
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    justify-content:none;
+    align-items: none;
+    margin: 0;
+
+}
+
+
+
+
+
+/* Fibonnacci SPiral for proportions */
+
+/* .page2 img{
+    position: absolute;
+    transform: rotate(180deg);
+    margin: 0;
+    width: 102vw;
+    height: 105vh;
+    padding: 0;
+    z-index: 0;
+    left: -2vw;
+} */
+/* Fibonnacci Spiral for proportions */
+
+
+
+.decoFlower2{
+    position: absolute;
+    top: -15vh;
+    left: -20vw;
+    display: flex;
+    width: 60vw;
+    height: 60vh;
+    background-size: cover;
+    /* background-position-y: -20%; */
+    
+    
+}
+
+/* .decoTransFlower{
+    position: absolute;
+    bottom: -7.5vh;
+    right: 2vw;
+    display: flex;
+    width: 30vw;
+    height: 60.5vh;
+    background-size: contain;
+    z-index: 40;
+    /* background-position-y: vh; */
+    /*transform: rotate(25deg);
+    
+} */
+
+#bottomLeftSquare{
+    
+    background-color: #11322B;
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    left: 0px;
+    bottom: 0;
+    width: 37.8vw;
+    height: 61.6vh;
+}
+
+.aboutUsText{
+    display: inline-block;
+    position: absolute;
+    left: 3vw;
+    top: 45vh;
+    color: #fff;
+    max-width: 24vw;
+    z-index: 100;
+}
+
+.aboutUsText h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.aboutUsText h2:nth-child(2){
+    font-size: 6rem;
+    color: #f8ccca;
+    font-family: 'WindSong', sans-serif;
+    background-color: #222;
+    top: -2vh;
+}
+
+.aboutUsText p{
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    font-size: 1.0rem;
+    line-height: 1.18rem;
+}
+
+.aboutUsText p:nth-of-type(2){
+    font-family: 'WindSong', sans-serif;
+    background-color: #222;
+    right: 0;
+    font-size: 3rem;
+    margin-left: 14vw;
+    bottom: 2vh;
+}
+
+
+#upperLeftMiddleSquare, #lowerLeftMiddleSquare{
+    position: absolute;
+    
+    padding: 0;
+}
+#upperLeftMiddleSquare{
+    border: solid 2px black;
+    height: 37vh;
+    width: 24vh;
+    left: 21vw;
+    top: 10vh;
+}
+
+#lowerLeftMiddleSquare{
+    display: flexbox;
+    background-color: #fff;
+    left: 33vw;
+    top: 28vh;
+    height: 37vh;
+    width: 28vh;
+    transform: scale(1.5);
+    border-top: 2vh #f8ccca solid ;
+    border-left: 2vh #f8ccca solid ;
+   
+    background-position-x: 15%;
+    background-size: cover;
+}
+
+.lowerLeftMiddleSquare img{
+    width: 28vh;
+      height: 37vh;
+}
+
+.secondAboutUsText{
+    top: 55vh;
+    position: absolute;
+    /* background-color: #222; */
+    color: #11322B;
+    font-size: 1.0rem;
+    line-height: 1.225rem;
+    left: 55vw;
+    max-width: 38vw;
+}
+
+.secondAboutUsText a{
+    /* margin-top: 3vh;
+    color: #fff;
+    margin-right: 28vw;
+    font-size: 1.5rem;
+    padding: 1rem 1.3rem;
+    border-radius: 15px;
+    background: #222; */
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    background: #222;
+    padding: 0.45rem 0.8rem;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 1.2em;
+    transition: 0.2s ease-in-out;
+}
+
+.secondAboutUsText a:hover{
+    /* background: #11322B;
+    font-weight: 500; */
+    background: #11322B;
+    transform: translateY(-5px);
+    font-weight: 700;
+}
+
+.flowerAtBottom{
+    position:absolute;
+    top: 60vh;
+    right: 0;
+    transform: scale(0.3);
+}

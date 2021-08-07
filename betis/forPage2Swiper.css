@@ -1,0 +1,106 @@
+/* For the swiper */
+/* For the swiper */
+/* For the swiper */
+/* For the swiper */
+/* For the swiper */
+
+
+/* css for the display */
+#ourValuesRectangle{
+    position: absolute;
+    width: 40vw;
+    height: 33vh;
+    /* background-color: #f8ccca; */
+   
+    bottom: 55%;
+    left: 55%;
+    margin: 0;
+    padding: 0;
+    /* border-radius: 10px; */
+    color: rgb(100, 100, 100);
+}
+.swiperContainerOV{
+    
+    width: 40vw;
+    height: 33vh;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.swiperContainerOV .swiperWrapper{
+    width: 500%;
+    height: 33vh;
+    display: flex;
+
+}
+
+.swiperWrapper input{
+    display: none;
+}
+
+.swiperSlide{
+    /* display: block; */
+    width: 20%;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;  
+    transition: 2s;
+}
+
+.swiperSlide img{
+    transform: scale(1.1);
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.swiperSlide p{
+    font-size: 1.1em;
+}
+
+
+/* css for the manual navigation */
+.manualNav{
+    position: absolute;
+    width: 40vw;
+    margin-top:-40px ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.manualBtn{
+    border: 1px solid rgba(2, 2, 2, 0.2);
+    padding: 5px;
+    border-radius:  10px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: rgba(2, 2, 2, 0);
+   
+}
+
+.manualBtn:not(:last-child)
+{
+    margin-right: 10px;
+}
+
+.manualBtn:hover{
+    background: rgba(2, 2, 2, 0.5);
+}
+
+/* radio 1 checked */
+#radioButton1:checked ~ .swiperSlide:nth-of-type(1){
+    margin-left: 0;
+}
+
+/* radio 2 checked */
+#radioButton2:checked ~ .swiperSlide:nth-of-type(1){
+    margin-left: -20%;
+}
+
+/* radio button 3 checked */
+#radioButton3:checked ~ .swiperSlide:nth-of-type(1){
+    margin-left: -40%;
+}
+
+

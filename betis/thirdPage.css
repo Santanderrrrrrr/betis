@@ -1,0 +1,219 @@
+section .page3details{
+    background-color: antiquewhite;
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    justify-content:none;
+    align-items: none;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.mapToLocation{
+    z-index: 99;
+    position: absolute;
+    margin: 8vh 3vh 3vh 3vh;
+    height: 85%;
+    margin-right: 60%;
+    width: 37%;
+    /* padding: 2vh; */
+    border-top: 2vh #f8ccca solid ;
+    border-left: 2vh #f8ccca solid ;
+    border-bottom: 2px solid rgba(2, 2, 2, 0.5); border-right: 2px solid rgba(2, 2, 2, 0.5);
+}
+
+/* .mapToLocation .mapiframe{
+    width: 100%;
+    height: 50%;
+} */
+
+
+section .contactsTitle{
+    z-index: 100;
+    position: absolute;
+    top: 4vh;
+    right: 24vh;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-block;
+    
+}
+.mapBkg{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 0;
+    background: #fff;
+}
+/* section .contactsTitle h2:nth-of-type(1){
+    font-family: 'WindSong', sans-serif;
+    font-size: 4em; */
+    /* line-height: 4em; */
+    /* color: #11322B;
+    margin: 5px;
+    margin: 0%;
+}
+section .contactsTitle h2:nth-of-type(2){
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;*/
+    /* line-height: 4em; */
+/*    color: #fff;
+    margin: 0;
+    padding:5px 7px;
+    background: #222;
+
+} */
+
+section .contactsTitle h2:nth-of-type(1){
+    font-family: 'WindSong', sans-serif;
+    /* font-weight: 500; */
+    /* text-transform: uppercase; */
+    color: #11322B;
+    font-size: 5rem;
+    /* margin-bottom: 1rem; */
+    line-height: 3rem;
+
+}
+section .contactsTitle h2:nth-of-type(2){
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+    line-height: 3rem;
+    margin-left: 15vw;
+    padding-left: 5vw;
+    /* margin-right: 7vw; */
+}
+
+.textBox3{
+    right: 0%;
+    position: absolute;
+    height: 65vh;
+    width: 55vw;
+    /* background: #f8ccca; */
+    top: 20%;
+}
+
+.textBox3 .upperContacts{
+    margin-left: 2vw;
+    margin-top:2vh;
+    max-width: 27.5vw;
+    display: inline-block;
+}
+
+.textBox3 .upperContacts h2:nth-of-type(1){
+    font-family: 'Poppins', sans-serif;
+    color: rgba(2, 2, 2, 0.65);
+    margin-bottom: 0;
+    font-size: 150%;
+}
+
+.textBox3 .upperContacts h2:nth-of-type(2){
+    font-family: 'WindSong', sans-serif;
+    color: #222;
+    font-size: 1.2rem;
+    /* background-color: #222; */
+    line-height: 1rem;
+
+}
+
+.textBox3 .upperContacts p{
+    /* display: table; */
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    /* background-color: #11322B; */
+    padding-left: 3px;
+    color: #11322B;
+    margin: 0;
+}
+
+.decoSquare{
+    position: absolute;
+    width: 13vw;
+    height: 37vh;
+    left: 30%;
+    border: 2px solid rgba(2, 2, 2, 0.5);
+}
+
+.decoSquare2{
+    position: absolute;
+    width: 24vw;
+    height: 42vh;
+    right: 15%;
+    bottom: 0;
+    margin: 0;
+    background: #11322B;
+}
+
+.decoFlower{
+    position: absolute;
+    bottom: -5vh;
+    right: 30vw;
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    background-size: cover;
+    background-position-y: -20%;
+    
+}
+
+
+
+.page3details a{
+    position: absolute;
+    max-width: 40vw;
+    max-height: 60vh;
+}
+.page3details a .decoImgLink img{
+    transform: scale(0.2);
+}
+
+.textBox3 .lowerContacts{
+    position: absolute;
+    right: 10vw;
+    top: 30vh;
+    margin-left: 2vw;
+    margin-top:2vh;
+    max-width: 27.5vw;
+    display: inline-block;
+}
+
+.textBox3 .lowerContacts h2:nth-of-type(1){
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 150%;
+    text-align: right;
+}
+
+.textBox3 .lowerContacts h2:nth-of-type(2){
+    text-align: right;
+    font-family: 'WindSong', sans-serif;
+    color: #222;
+    font-size: 1.2rem;
+    width: 100%;
+    /* background-color: #222; */
+    line-height: 1rem;
+
+}
+
+.textBox3 .lowerContacts p{
+    /* display: table; */
+    text-align: right;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    /* background-color: #11322B; */
+    padding-left: 3px;
+    color: #fff;
+    margin: 0;
+}
+
+.upperContacts, .lowerContacts{
+    transform: scale(0.8);
+}
+
+.upperContacts h2:nth-of-type(2), .lowerContacts h2:nth-of-type(2){
+    background-color: #f8ccca;
+}
